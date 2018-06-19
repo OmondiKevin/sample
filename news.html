@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="img/x-icon" href="logo/top_logo.png"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/new_style.css"/>
+<title>NQCL | News and Events</title>
+</head>
+
+
+<script language="JavaScript">
+function mdy(todaysdate) {
+//calls the function mdy why to get the date
+var ext = "";
+switch(todaysdate.getDate()) {
+	case 1:
+	case 21:
+	case 31:
+		ext = "st";
+		break;
+	case 2:
+	case 22:
+		ext = "nd";
+		break;
+	case 3:
+	case 23:
+		ext = "rd";
+		break;
+	default:
+		ext = "th";
+		break;
+}
+var month = "";
+switch(todaysdate.getMonth()+1) {
+	case 1:
+		month = "January";
+		break;
+	case 2:
+		month = "February";
+		break;
+	case 3:
+		month = "March";
+		break;
+	case 4:
+		month = "April";
+		break;
+	case 5:
+		month = "May";
+		break;
+	case 6:
+		month = "June";
+		break;
+	case 7:
+		month = "July";
+		break;
+	case 8:
+		month = "August";
+		break;
+	case 9:
+		month = "September";
+		break;
+	case 10:
+		month = "October";
+		break;
+	case 11:
+		month = "November";
+		break;
+	case 12:
+		month = "December";
+		break;
+	default:
+		month = "Error";
+		break;
+}
+return todaysdate.getDate()+ext+" "+month+", "+todaysdate.getFullYear();
+}
+</script>
+
+<body>
+
+<div class="hero">
+
+	<div class="header">
+    	<div class="logo">
+        	<div class="real_logo">
+        		<a href="index.html"><img src="logo/web_logo.png" style="float:left;"/></a>
+            </div>
+                	 <div class="dater">
+                     <a href="#">FAQs</a>&nbsp; | <a href="#">Careers</a>&nbsp; | <a href="#">WebMail</a>
+                     </div>
+                     
+                     <div class="in_dater">
+                     	<script language="JavaScript">
+						sampleDate1=new Date()
+						document.write (mdy(sampleDate1))
+						</script>
+                     </div>
+        </div>
+              
+        <div class="after_head">
+        	<div class="menu_column">
+            	<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About NQCL</a>
+			</li>
+			<li>
+				<a href="services.html">Our Services</a>
+			</li>
+			<li>
+				<a href="drugs_reg.html">Drugs Regulatory Authority</a>
+			</li>
+			<li>
+				<a href="#" class="active">News and Events</a>
+			</li>
+			<li>
+				<a href="downloads.html">Downloads</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact Us</a>
+			</li>
+			
+		</ul>
+            </div>
+        </div>
+        
+    
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

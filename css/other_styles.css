@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sample_head{
+	margin:auto;
+	padding-top:10px;
+	width:1000px;
+	height:80px;
+	border-bottom:thin #ccc solid;
+}
+.contact{
+	margin:auto;
+	width:1000px;
+	height:auto;
+}
+.in_contact{
+	float:left;
+	width:565px;
+	height:310px;
+	margin-top:25px;
+	margin-left:0px;
+}
+.i_contact{
+	margin:auto;
+	margin-top:68px;
+	width:100%;
+	height:auto;
+	padding-bottom:10px;
+}
+.map{
+	float:left;
+	margin-left:20px;
+	width:410px;
+	height:auto;
+	margin-top:25px;
+	background-color:#f7f7f7;
+	border-radius:10px;
+	border:thin #ccc solid;
+	font-size:15px;
+	padding-bottom:38px;
+}
+.address{
+	width:100%;
+	height:auto;
+	margin-top:0px;
+	float:left;	
+}
+.in_address{
+	height:auto;
+	width:80%;
+	float:left;
+	margin-left:10%;
+	text-align:justify;
+}
